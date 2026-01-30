@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    font-family: 'Poppins , sans-serif' ;
+    flex-direction: column;
+    position: relative;
+}
+.Error{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    margin-top: 5px;
+    font-family: 'Poppins , sans-serif';
+    width: 320px;
+    text-align: center;
+}

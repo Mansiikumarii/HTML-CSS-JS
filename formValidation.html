@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+   <link rel="stylesheet" href="email.css">
+
+</head>
+<body>
+    <form action="submit.html" onsubmit="return data()">
+        User id :<br><input type="text" id="n1"><br>
+        Contact: <br><input type="text" id="n2"><br>
+        Password: <br><input type="password" id="n3"> <br>
+        Confirm Password:<br><input type="password" id="n4"> <br>
+        <input type="email" id="email" placeholder="Enter your email" oninput="ValidateEmail()" onfocus="hideError()">
+        <div id="Error-message" class="Error"> Correct email format is :example@domain.com</div>
+        <input type="submit">
+    </form>
+    <script src="Validate.js"></script>
+</body>
+</html>
